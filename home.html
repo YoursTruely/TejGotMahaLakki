@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website with Tabs</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <div class="tabs">
+    
+    <div class="tab" onclick="showContent('event')"><i class="bi bi-calendar-fill" style="font-size: 20px;"></i></div>
+    <div class="tab" onclick="showContent('rsvp')"><i class="bi bi-envelope-paper-fill" style="font-size: 20px;"></i></i></div>
+    <div class="logo"><img src="logo.png" alt="Brand Logo" onclick="showContent('home')"></div>
+    <div class="tab" onclick="showContent('getting-there')"><i class="bi bi-signpost-split-fill" style="font-size: 20px;"></i></div>
+    <div class="tab" onclick="showContent('gifts')"><i class="bi bi-gift-fill" style="font-size: 20px;"></i></div>
+  </div>
+
+  
+  <div id="content-event" class="content">Content for Event tab</div>
+  <div id="content-rsvp" class="content">Content for RSVP tab</div>
+  <div id="content-home" class="content">Content for home tab</div>
+  <div id="content-getting-there" class="content">Content for Getting there tab</div>
+  <div id="content-gifts" class="content">Content for Gifts tab</div>
+
+  
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
